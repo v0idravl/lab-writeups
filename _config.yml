@@ -1,0 +1,19 @@
+title: "v0idravl"
+description: "HTB, PG, and THM writeups — v0idravl"
+url: "https://v0idravl.github.io"
+baseurl: "/lab-writeups"
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
